@@ -1,0 +1,56 @@
+{
+  "name": "Lucas E. Manera",
+  "photo": "https://avatars.githubusercontent.com/u/196089264?v=4",
+  "job": "Estudante de Análise e Desenvolvimento de Sistemas",
+  "location": "Mogi Mirim - SP",
+  "phone": "(19) 99729-8661",
+  "email": "lucas.manera2017@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+      },
+      {
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+      }
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (TOEIC – 810 pontos (Listening & Reading) – Nível B2 – Realizado em 2025)"
+  ],
+  "portfolio": [
+    {
+      "name": "Criação de uma PokeDex",
+      "url": "https://github.com/LucasManera2017/PokeDex",
+      "github": true
+    },
+    {
+      "name": "Clone do Site da HBO max",
+      "url": "https://github.com/LucasManera2017/SiteHBOMax",
+      "github": true
+    },
+    {
+      "name": "Desafio Responsividade Discord",
+      "url": "https://github.com/LucasManera2017/Desafio_Responsividade_Discord",
+      "github": true
+    }
+  ]
+}
