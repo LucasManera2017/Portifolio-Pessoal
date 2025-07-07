@@ -35,27 +35,31 @@
       <header class="header">
         <img
           src="/assets/img/eu.jpeg"
-          alt="Foto de Lucas E. Manera"
-          class="photo"
+          alt="Foto de Perfil"
+          class="photo profile.photo"
         />
 
-        <h1 class="title">Olá, <br />eu sou o <br />Lucas E. Manera</h1>
+        <h1 class="title">
+          Olá, <br />eu sou o <br /><span class="profile.name"
+            >Loading...</span
+          >
+        </h1>
 
         <div class="information">
-          <p class="job">Análise e Desenvolvimento de Sistemas</p>
-          <p class="location">Mogi Mirim - SP</p>
+          <p class="job"><span class="profile.graduating">Loading...</span></p>
+          <p class="location"><span class="profile.location">Loading...</span></p>
           <p clas="=phone">
-            <a href="tel:+55199997298661">(19) 999729-8661</a>
+            <a href="tel:+55199997298661" class="profile.phone">Loading...</a>
           </p>
           <p class="email">
             <a href="mailto:lucas.manera2017@gmail.com"
-              >lucas.manera2017@gmail.com</a
+              class="profile.email">loading@gmail.com</a
             >
           </p>
         </div>
       </header>
 
-      <section class="acordeon open">
+      <section class="acordeon">
         <button class="trigger">Skills</button>
         <div class="content">
           <div class="skills">
@@ -63,16 +67,32 @@
               <h3>Ferramentas:</h3>
               <ul>
                 <li>
-                  <img src="/assets/img/languages/js.svg" alt="javascript" title="JavaScript"/>
+                  <img
+                    src="/assets/img/languages/js.svg"
+                    alt="javascript"
+                    title="JavaScript"
+                  />
                 </li>
                 <li>
-                  <img src="/assets/img/languages/css.svg" alt="css" title="css"/>
+                  <img
+                    src="/assets/img/languages/css.svg"
+                    alt="css"
+                    title="css"
+                  />
                 </li>
                 <li>
-                  <img src="/assets/img/languages/git.svg" alt="git" title="git"/>
+                  <img
+                    src="/assets/img/languages/git.svg"
+                    alt="git"
+                    title="git"
+                  />
                 </li>
                 <li>
-                  <img src="/assets/img/languages/github.svg" alt="github" title="github"/>
+                  <img
+                    src="/assets/img/languages/github.svg"
+                    alt="github"
+                    title="github"
+                  />
                 </li>
               </ul>
             </section>
@@ -90,7 +110,7 @@
         </div>
       </section>
 
-      <section class="acordeon ">
+      <section class="acordeon">
         <button class="trigger">Idiomas</button>
 
         <div class="content">
@@ -104,7 +124,7 @@
         </div>
       </section>
 
-      <section class="acordeon ">
+      <section class="acordeon">
         <button class="trigger">Projects</button>
         <div class="content">
           <ul class="projects">
@@ -129,9 +149,10 @@
           </ul>
         </div>
       </section>
-
     </main>
 
     <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
