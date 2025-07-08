@@ -8,20 +8,24 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/js.svg"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/css.png"
       },
       {
-        "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/css.svg"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/html.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/js.png"
       },
       {
         "name": "Git",
-        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/git.svg"
+        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/git.png"
       },
       {
         "name": "GitHub",
-        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/github.svg"
+        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/github.png"
       }
     ],
     "softSkills": [
