@@ -8,12 +8,12 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/css.png"
-      },
-      {
         "name": "HTML",
         "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/LucasManera2017/Portifolio-Pessoal/refs/heads/main/data/img/css.png"
       },
       {
         "name": "JavaScript",
