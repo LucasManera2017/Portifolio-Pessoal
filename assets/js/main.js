@@ -53,10 +53,24 @@ function updateLanguages(profileData) {
     .join("");
 }
 
+function updateProjects(profileData) {
+  const projects = document.getElementById("profile.projects");
+
+  projects.innerHTML = profileData.projects.map((project) => 
+    `<li>
+              <span ${project.github ? 'class="title github"' : ''}>${project.name}</span>
+              <a href="${project.url}" target="_blank"
+                >${project.url}</a
+              >
+            </li>`
+          ).join("");
+}
+
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
   updateLanguages(profileData);
+  updateProjects(profileData);
 })();
